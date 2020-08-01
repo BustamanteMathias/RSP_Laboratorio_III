@@ -74,9 +74,9 @@
         <div class="contenedor" id="contGrilla">
 
             <!-- POPUP - PARAMETROS-->
-            <h1 class="tittleFiltros">ALTA DE CLIENTE</h2>
-            <br>
             <input class="botonCerrar" type="button" id="btnCerrar" value="X" onclick="Personas.CerrarGrilla()">
+            <br>
+            <h1 class="tittleFiltros">ALTA DE CLIENTE</h2>
             <br>
             <label for="personaID">ID</label>
             <input type="text" id="personaID" class="sinError" disabled="true">
@@ -101,8 +101,10 @@
             <!-- POP UP - BOTONES -->
             <br>
             <br>
+            <div class="botEliminar">
             <input class="botonEliminar" type="button" id="btnCerrar" value="Cerrar" onclick="Personas.CerrarGrilla()">
             <input class="botonEliminar" type="button" id="btnEliminar" value="Eliminar" >
+            </div>
             <input class="botonGuardar" type="button" id="btnGuardar" value="Agregar" onclick="Personas.Guardar()" >
 
         </div>

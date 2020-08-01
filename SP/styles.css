@@ -142,7 +142,11 @@ input[type=text],[type=number]{
     display: inline-block;
 }
 
-
+.botEliminar{
+    display: inline-flex;
+    width:100%;
+    justify-content: space-evenly;
+}
 .botonCerrar
 {
     width: 5%;
@@ -156,8 +160,7 @@ input[type=text],[type=number]{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-  
+    position: absolute;
 }
 
 .botonAbrir{
